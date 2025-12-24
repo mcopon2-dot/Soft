@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Quality PC Traffic - Pascal Albrecht</title>
+    <style>
+        :root {
+            --primary: #00ff88; /* Matrix Green */
+            --secondary: #00b8ff; /* Tech Blue */
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        
+        body { background-color: var(--bg); color: var(--text); line-height: 1.6; }
+
+        /* Header */
+        header { text-align: center; padding: 4rem 1rem; background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, var(--bg) 100%); }
+        h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+        h1 span { color: var(--primary); }
+        p.subtitle { color: var(--text-muted); font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem auto; }
+
+        /* Features Grid */
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 4rem; }
+        
+        .card { 
+            background: var(--card-bg); 
+            padding: 2rem; 
+            border-radius: 12px; 
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: transform 0.2s;
+        }
+        .card:hover { transform: translateY(-5px); border-color: var(--primary); }
+        .card h3 { color: var(--secondary); margin-bottom: 1rem; font-size: 1.3rem; }
+        
+        /* Contact Section - Modified for Email */
+        .cta-section { text-align: center; background: var(--card-bg); padding: 3rem 1rem; border-radius: 16px; border-top: 4px solid var(--primary); }
+        
+        .contact-card {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--text-muted);
+            border-radius: 10px;
+            padding: 2rem;
+            display: inline-block;
+            margin-top: 2rem;
+            min-width: 300px;
+        }
+
+        .contact-name {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: white;
+        }
+
+        .contact-email {
+            font-size: 1.2rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: color 0.2s;
+        }
+        
+        .contact-email:hover {
+            color: var(--secondary);
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer { text-align: center; padding: 2rem; color: var(--text-muted); font-size: 0.9rem; margin-top: 2rem; }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .contact-card { width: 100%; }
+            .contact-email { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Premium <span>PC Software</span> Traffic</h1>
+        <p class="subtitle">High-converting, clean traffic specifically for PC Utilities, Software Downloads, and CPA Offers. Real users, real installs.</p>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <h3>🚀 High Conversion Rates</h3>
+                <p>My traffic is targeted specifically for desktop users looking for software solutions. Perfect for PPI (Pay Per Install) and CPA networks.</p>
+            </div>
+            <div class="card">
+                <h3>🛡️ 100% Clean Traffic</h3>
+                <p>No bots, no fraud. I focus on quality user acquisition to ensure your advertiser accounts stay safe and your retention remains high.</p>
+            </div>
+            <div class="card">
+                <h3>🎯 Targeted Audiences</h3>
+                <p>Specialized in Windows/PC audiences. If you have an offer for antivirus, driver updaters, or games, I have the audience.</p>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>Let's Do Business</h2>
+            <p style="color: var(--text-muted); margin-top: 10px;">I am open to exclusive partnerships and high-volume deals.</p>
+            
+            <div class="contact-card">
+                <div class="contact-name">Pascal Albrecht</div>
+                <a href="mailto:Pascal-Albrecht9@proton.me" class="contact-email">
+                    ✉️ Pascal-Albrecht9@proton.me
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Traffic Services. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
